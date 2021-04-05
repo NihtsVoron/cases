@@ -1,0 +1,53 @@
+main {
+    padding: 50px;
+}
+
+.cases {
+    display: flex;
+    flex-direction: column;
+}
+
+#form {
+    display: flex;
+}
+
+#form>input:first-child {
+    width: 300px;
+    height: 20px;
+    font-size: 16px;
+    padding: 4px;
+}
+
+#form>input:nth-child(2) {
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+#form>input:nth-child(2):hover {
+    background-color: aquamarine;
+    outline: none;
+}
+
+#cases {
+    margin-top: 20px;
+}
+
+.cases__item {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.cases__item>input {
+    width: 550px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.cases__item>label {
+    font-size: 17px;
+}
